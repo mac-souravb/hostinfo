@@ -10,7 +10,7 @@ import (
 
 func main() {
 	//Set listening port
-	port := 9899
+	port := 9890
 	if len(os.Args) > 1 {
 		var err error
 		port, err = strconv.Atoi(os.Args[1])
